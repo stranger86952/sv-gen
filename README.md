@@ -14,11 +14,20 @@
   - ZL=nならx,yはそれぞれ0から2^n-1まで(原点は北西)
 
 ## Sample
-- Cuba  
-  ![Cuba](./img/Cuba.png)
-- North Korea  
-  ![North Korea](./img/North-Korea.png)
-- Algeria  
-  ![Algeria](./img/Algeria.png)
-- China  
-  ![China](./img/China.png)
+- 公式のCoverageを無視して作成した場合
+  <details>
+    <summary>Cuba</summary>
+    <img src="./img/Cuba.png">
+  </details>
+  <details>
+    <summary>North Korea</summary>
+    <img src="./img/North-Korea.png">
+  </details>
+  <details>
+    <summary>Algeria</summary>
+    <img src="./img/Algeria.png">
+  </details>
+  <details>
+    <summary>China</summary>
+    <img src="./img/China.png">
+  </details>
