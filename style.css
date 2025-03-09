@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-container div {
+  text-align: center;
+}

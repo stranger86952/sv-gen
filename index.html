@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Fake Coverage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Google Maps Tiles</h1>
+    <form id="mapForm">
+        <label for="zoom">zoom(1-20):</label>
+        <input type="number" id="zoom" min="1" max="20" value="12">
+
+        <label for="areaX">area-x:</label>
+        <input type="number" id="areaX" min="1" value="1">
+
+        <label for="areaY">area-y:</label>
+        <input type="number" id="areaY" min="1" value="1">
+
+        <label for="lat">lat:</label>
+        <input type="number" id="lat" step="0.0001" value="22.3193">
+
+        <label for="lng">lng:</label>
+        <input type="number" id="lng" step="0.0001" value="114.1694">
+
+        <button type="button" onclick="generate()">get tiles</button>
+    </form>
+
+    <div class="image-container">
+        <div>
+            <h2>Label Map</h2>
+            <canvas id="labelCanvas"></canvas>
+        </div>
+        <div>
+            <h2>Base Map</h2>
+            <canvas id="baseCanvas"></canvas>
+        </div>
+        <div>
+            <h2>Street View</h2>
+            <canvas id="streetCanvas"></canvas>
+        </div>
+        <div>
+            <h2>Road Upper</h2>
+            <canvas id="roadUpperCanvas"></canvas>
+        </div>
+        <div>
+            <h2>Road Lower</h2>
+            <canvas id="roadLowerCanvas"></canvas>
+        </div>
+        <div>
+            <h2>Fake Coverage</h2>
+            <canvas id="fakeCanvas"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
